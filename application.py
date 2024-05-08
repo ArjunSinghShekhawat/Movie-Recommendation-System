@@ -7,7 +7,7 @@ import requests
 application = Flask(__name__)
 app = application
 
-## arjun 
+## arjun singh 
 movies  = pickle.load(open(r'E:\Movie Recommendation System\artifacts\movie.pkl','rb'))
 similarity = pickle.load(open(r'E:\Movie Recommendation System\artifacts\similarity.pkl','rb'))
 
